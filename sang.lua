@@ -1,0 +1,1 @@
+print("SANG SCRIPT OK")
