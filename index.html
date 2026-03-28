@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SANGIOS🍏</title>
+<style>
+body {
+    margin:0;
+    background:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    flex-direction:column;
+}
+button {
+    padding:15px 30px;
+    font-size:20px;
+    border:none;
+    border-radius:10px;
+}
+#crosshair {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:40px;
+    color:red;
+    display:none;
+}
+</style>
+</head>
+<body>
+
+<button onclick="toggle()">BẬT / TẮT TÂM</button>
+<div id="crosshair">+</div>
+
+<script>
+let on=false;
+function toggle(){
+    on=!on;
+    document.getElementById("crosshair").style.display = on ? "block" : "none";
+}
+</script>
+
+</body>
+</html>
