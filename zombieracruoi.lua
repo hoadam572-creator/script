@@ -72,7 +72,7 @@ local function LoadKingRuaMenu()
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/mamafoni281/KingRua-Library/refs/heads/main/Source"))()
 
     local Window = Library:NewWindow({
-        Title = "Mchien Hub",
+        Title = "Xuan hub",
         Description = "Survive Zombie Arena"
     })
 
